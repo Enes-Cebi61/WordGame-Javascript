@@ -1,0 +1,101 @@
+/* Styling for the entire page body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom right, #8CC84B, #C9B458); 
+    padding: 20px; 
+}
+/* Styling for the horizontal rule */
+
+hr {
+    width: 500px;
+    margin: 20px auto; 
+}
+/* Styling for the title element */
+
+#title {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* Styling for the game board */
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 20px auto; 
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Styling for individual tiles on the game board */
+
+.tile {
+    /* Box */
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    /* Text */
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Styling for correct guess tiles */
+
+.correct {
+    background-color: #6AAA64;
+    color: white;
+    border-color: white;
+}
+/* Styling for present guess tiles */
+
+.present {
+    background-color: #C9B458;
+    color: white;
+    border-color: white;
+}
+/* Styling for absent guess tiles */
+
+.absent {
+    background-color: #787C7E;
+    color: white;
+    border-color: white;
+}
+/* Styling for the keyboard row */
+
+.keyboard-row {
+    width: 440px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    align-content: stretch; 
+}
+/* Styling for regular keyboard tiles */
+
+.key-tile, .enter-key-tile {
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid lightgray;
+
+      /* Text */
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Styling for the enter key tile */
+
+.enter-key-tile {
+    width: 80px;
+}
